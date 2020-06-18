@@ -9,6 +9,6 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     public String home(){
-        return "Welcome in Webapp deployed by Jenkins";
+        return "Welocme changed app has been auto-deployed by jenkins";
     }
 }
